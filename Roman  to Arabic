@@ -5,7 +5,7 @@ package by.htp.cycles.logic;
 import java.util.Scanner;
 
 public class Task30 {
-	public static void task() {
+public static void main(String[]args ) {
 		String k, s;
 		char B, b;
 		int a, c, d, h;
