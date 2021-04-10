@@ -1,0 +1,31 @@
+package by.htp.cycles.logic;
+
+ //Найдите все четырехзначные числа, сумма цифр каждого из которых равна 15.
+
+public class Task34 {
+public static void main(String[]args ) {
+	int  d, f, c; 
+	//c = 0;
+	f = 0;
+	d = 1000;
+	String s = String.valueOf(d);
+	
+	 while (d <=9999) {
+	                                        
+      c = 0;
+		 
+	 for (int j =1 ; j <= s.length(); j++) {   
+		                                                           
+			 
+	  f = (d % (int)Math.pow(10,j))/(int)Math.pow(10,j-1) ;
+		                                                           
+                                            
+		           
+	  c = c + f;
+		                                      
+	 }  
+	 if (c == 15) System.out.println("-"+d);
+	 d++; 
+  }
+ }
+}
