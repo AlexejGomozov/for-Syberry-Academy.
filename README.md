@@ -1,4 +1,4 @@
-# for-Syberry-Academy.
+# great code
 
 non-leap year/ Вычислить число и месяц в невисокосном году по номеру дня.
 
